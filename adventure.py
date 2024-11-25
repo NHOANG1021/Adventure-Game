@@ -22,7 +22,7 @@ def play_game(data):
     None
     """
     current = random_start(data)
-    print('Welcome to the ICS 31 Adventure Game:\n')
+    print('Welcome to the Adventure Game:\n')
     user = input("Enter a username: ")
     save_user_info(user, current)
     current = load_user(user)
