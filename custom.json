@@ -1,0 +1,171 @@
+{
+	"Your House": {
+		"text":"You are at Your House, and today is the day where you finally become a Pokemon trainer!\nVisit and explore each city, collecting gym badges along the way!\nExplore the Kanto Reigon and become the Champion!\n",
+		"moves": {
+			"north":"Pewter City",
+			"east":"PokeMart",
+			"west":"Pokemon Center",
+			"south":"Your House"
+		}
+	},
+    "Pokemon Center": {
+		"text":"Welcome to the Pokemon center!\nHere, Nurse Joy will keep your pokemon happy and healthy!\n",
+		"moves": {
+			"north":"Cerulean City",
+			"east":"Your House",
+			"south":"Pokemon Center",
+			"west":"Pokemon Center"
+		},
+		"objects":[{
+			"name":"Super Potion",
+			"type": "normal"
+		}]
+    },
+    "PokeMart": {
+		"text":"Welcome to the Pokemart!\nCome here for any neccessities during your pokemon adventure!\n",
+		"moves": {
+			"north":"Vermilion City",
+			"west":"Your House",
+			"east":"PokeMart",
+			"south":"PokeMart"
+    	},
+		"objects":[{
+			"name":"Pokeball",
+			"type": "normal"
+		}]
+    },
+	"Pewter City" : {
+		"text":"This is the rock type gym of Pewter City!\nOvercome Brock and recieve the Boulder Badge!\n",
+		"moves": {
+			"north":"Celadon City",
+			"east":"Vermilion City",
+			"south":"Your House",
+			"west":"Cerulean City"
+		},
+		"objects":[{
+			"name":"Boulder Badge",
+			"type": "special"
+		}]
+
+	},
+	"Cerulean City": {
+		"text":"Welcome to the Cerulean City gym, specializing in water types!\nOvercome Misty and recieve the Cascade Badge!\n",
+		"moves": {
+			"north":"Fuchsia City",
+			"east":"Celadon City",
+			"south":"Pokemon Center",
+			"west": "Cerulean City"
+		},
+		"objects":[{
+			"name":"Cascade Badge",
+			"type": "special"
+		}]
+	},
+	"Vermilion City": {
+		"text":"The electrifying gym of Vermilion City!\nOvercome Lt.Surge and recieve the Thunder Badge!\n",
+		"moves": {
+			"north":"Saffron City",
+			"south":"PokeMart",
+			"west":"Pewter City",
+			"east":"Vermilion City"
+		},
+		"objects":[{
+			"name":"Thunder Badge",
+			"type": "special"
+		}]
+	},
+	"Celadon City": {
+		"text":"You walk into what seems like a forest... but its the Celadon City gym!\nOvercome Erika and recieve the Rainbow Badge!\n",
+		"moves": {
+			"north":"Cinnabar Island",	
+			"east":"Saffron City",
+			"south":"Pewter City",
+			"west":"Fuchsia City"
+		},
+		"objects":[{
+			"name":"Rainbow Badge",
+			"type": "special"
+		}]
+	},
+    "Fuchsia City": {
+		"text":"The air smells toxic here in Fuchsia City...\nOvercome the poison type gym leader, Koga, and recieve the Soul Badge!\n",
+		"moves": {
+			"north":"Viridian City",
+			"east":"Celadon City",
+			"south":"Cerulean City",
+			"west":"Fuchsia City"
+		},
+		"objects":[{
+			"name":"Soul Badge",
+			"type": "special"
+		}]
+    },
+    "Saffron City":{
+		"text":"Welcome to the mysterious Saffron City gym!\nOvercome Sabrina and her psychic types to recieve the Marsh Badge!\n",
+		"moves": {
+			"north":"Victory Road",
+			"south":"Vermilion City",
+			"west":"Celadon City",
+			"east":"Saffron City"
+		},
+		"objects":[{
+			"name":"Marsh Badge",
+			"type": "special"
+		}]
+    },
+    "Cinnabar Island": {
+		"text":"You walk inside the Cinnabar Gym and already feel it heating up... Must be because all the fire type pokemon!\nOvercome Blaine and recieve the Volcano Badge!\n",
+		"moves": {
+			"north":"Elite Four",
+			"east":"Victory Road",
+			"south":"Celadon City",
+			"west":"Viridian City"
+		},
+		"objects":[{
+			"name":"Volcano Badge",
+			"type": "special"
+		}]
+    },
+    "Viridian City":{
+		"text":"Welcome to the Viridian City gym!\nGiovanni, the gym leader, looks like hes up to no good...\nOvercome his ground types and recieve the Earth Badge!\n",
+		"moves": {
+			"east":"Cinnabar Island",
+			"south":"Fuchsia City",
+			"north":"Viridian City",
+			"west":"Viridian City"
+		},
+		"objects":[{
+			"name":"Earth Badge",
+			"type": "special"
+		}]
+    },
+    "Victory Road": {
+		"text":"What a mysterious looking cave Victory Road is! Hope I dont get lost...\nI wodner if there is anything special in here?\n",
+		"moves": {
+			"south":"Saffron City",
+			"west":"Cinnabar Island",
+			"north":"Victory Road",
+			"east": "Victory Road"
+
+		},
+		"objects":[{
+			"name":"Master Ball",
+			"type": "normal"
+		}]
+    },
+    "Elite Four": {
+		"text":"To make it this far...You must have obtained all 8 Gym Badges (hopefully...)\nNow you must overcome the Elite Four, four of the best trainers this reigon has to offer.\nOvercome Loreli, Bruno, Agatha, and Lance, and face the Champion...\n",
+		"moves": {
+			"north":"Champion Battle!",
+			"south":"Cinnabar Island",
+			"east":"Elite Four",
+			"west":"Elite Four"
+		}
+    },
+    "Champion Battle!": {
+		"text":"You win!!!\nYou made it past all the other obstacles that Kanto has to offer.\nYou defeat Champion Blue... Becoming the Champion yourself!\nCongradulations Trainer!\n",
+		"moves":{
+
+		}
+    }
+}
